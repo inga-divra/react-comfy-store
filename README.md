@@ -2,51 +2,52 @@
 
 An e-commerce application where users can browse products, manage their cart, and place orders. The project aims to enhance skills in React development by focusing on state management, routing, and effective user interface design.
 
+This project is designed to enhance skills in React development, focusing on practical implementations of modern web development tools and practices. The project is part of John Smilga's React course, which I completed to enhance my skills in React development. For more information about the course, visit [John Smilga's Website](https://johnsmilga.com)
+
 ### Project goals:
 
 #### Utilize Modern Frontend Tools:
 Learn how to set up and configure a project using Vite, Tailwind CSS, and DaisyUI for efficient development and styling.
 
-- Implement Advanced Routing:
+#### Implement Advanced Routing:
 Gain proficiency in using React Router DOM to create seamless navigation and multi-page experiences in a React application.
 
-- Manage State with Redux Toolkit:
+#### Manage State with Redux Toolkit:
 Understand how to manage global state in a React application using Redux Toolkit, including user authentication and cart functionality.
 
-- Persist State with Local Storage:
+#### Persist State with Local Storage:
 Learn how to persist application state using local storage to enhance user experience and maintain session data across page reloads.
-Develop User Authentication:
 
+#### Develop User Authentication:
 Implement secure user login, registration, and guest access features to understand authentication flows in a React application.
-Build Product Management Features:
 
+#### Build Product Management Features:
 Create dynamic product displays with filtering and sorting options to enhance user browsing experience.
-Implement Cart and Checkout Functionality:
 
+#### Implement Cart and Checkout Functionality:
 Develop a fully functional shopping cart, including adding, updating, and removing items, and a seamless checkout process.
-Handle Errors and Provide User Feedback:
 
+#### Handle Errors and Provide User Feedback:
 Learn to implement error handling and user notifications using React Toastify to improve user experience and application robustness.
-Optimize Data Fetching and Performance:
 
+#### Optimize Data Fetching and Performance:
 Utilize efficient data fetching techniques with Axios and implement pagination to handle large data sets effectively.
-Integrate Loading States:
 
+#### Integrate Loading States:
 Implement global loading indicators to enhance the user experience during data fetching and processing operations.
-Learn Protected Route Management:
 
+#### Learn Protected Route Management:
 Understand how to protect routes and restrict access to authenticated users only, enhancing security in the application.
-Master Order Management:
 
+#### Master Order Management:
 Build features for order placement and history tracking to provide a complete e-commerce experience.
-This project is designed to enhance your skills in React development, focusing on practical implementations of modern web development tools and practices.
 
 ## Useful Project Resources
 
 - [Complete Project](https://react-vite-comfy-store-v2.netlify.app/)
 - [API DOCS](https://documenter.getpostman.com/view/18152321/2s9Xy5KpTi)
 
-## IMPORTANT !!!
+## Steps
 
 Try to work on one challenge at a time and observe my solution.
 This approach will make it easier later to identify any potential bugs.
