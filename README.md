@@ -4,7 +4,7 @@ An e-commerce application where users can browse products, manage their cart, an
 
 ### Project goals:
 
-- Utilize Modern Frontend Tools:
+#### Utilize Modern Frontend Tools:
 Learn how to set up and configure a project using Vite, Tailwind CSS, and DaisyUI for efficient development and styling.
 
 - Implement Advanced Routing:
