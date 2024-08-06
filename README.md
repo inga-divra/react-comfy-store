@@ -1,18 +1,19 @@
-##Comfy Store
+## Comfy Store
+
 An e-commerce application where users can browse products, manage their cart, and place orders. The project aims to enhance skills in React development by focusing on state management, routing, and effective user interface design.
 
-Project goals:
-Utilize Modern Frontend Tools:
+### Project goals:
 
+- Utilize Modern Frontend Tools:
 Learn how to set up and configure a project using Vite, Tailwind CSS, and DaisyUI for efficient development and styling.
-Implement Advanced Routing:
 
+- Implement Advanced Routing:
 Gain proficiency in using React Router DOM to create seamless navigation and multi-page experiences in a React application.
-Manage State with Redux Toolkit:
 
+- Manage State with Redux Toolkit:
 Understand how to manage global state in a React application using Redux Toolkit, including user authentication and cart functionality.
-Persist State with Local Storage:
 
+- Persist State with Local Storage:
 Learn how to persist application state using local storage to enhance user experience and maintain session data across page reloads.
 Develop User Authentication:
 
