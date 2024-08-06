@@ -6,7 +6,7 @@ This project is designed to enhance skills in React development, focusing on pra
 
 ### Project goals:
 
-#### Utilize Modern Frontend Tools:
+- #### Utilize Modern Frontend Tools:
 Learn how to set up and configure a project using Vite, Tailwind CSS, and DaisyUI for efficient development and styling.
 
 #### Implement Advanced Routing:
