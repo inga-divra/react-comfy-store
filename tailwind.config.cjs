@@ -5,5 +5,10 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'), // Add DaisyUI plugin
+  ],
+  daisyui: {
+    themes: ['light', 'dark'], // Include desired themes
+  },
 };
