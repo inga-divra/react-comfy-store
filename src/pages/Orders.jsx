@@ -1,7 +1,7 @@
 
 const Orders = () => {
     return (
-        <h1>Orders</h1>
+        <h1 className='text-4xl'>Orders</h1>
     )
 }
 
