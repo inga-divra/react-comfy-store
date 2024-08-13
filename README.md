@@ -7,40 +7,51 @@ This project is designed to enhance skills in React development, focusing on pra
 ### Project goals:
 
 - #### Utilize Modern Frontend Tools:
-Learn how to set up and configure a project using Vite, Tailwind CSS, and DaisyUI for efficient development and styling.
+
+  Learn how to set up and configure a project using Vite, Tailwind CSS, and DaisyUI for efficient development and styling.
 
 - #### Implement Advanced Routing:
-Gain proficiency in using React Router DOM to create seamless navigation and multi-page experiences in a React application.
+
+  Gain proficiency in using React Router DOM to create seamless navigation and multi-page experiences in a React application.
 
 - #### Manage State with Redux Toolkit:
-Understand how to manage global state in a React application using Redux Toolkit, including user authentication and cart functionality.
+
+  Understand how to manage global state in a React application using Redux Toolkit, including user authentication and cart functionality.
 
 - #### Persist State with Local Storage:
-Learn how to persist application state using local storage to enhance user experience and maintain session data across page reloads.
+
+  Learn how to persist application state using local storage to enhance user experience and maintain session data across page reloads.
 
 - #### Develop User Authentication:
-Implement secure user login, registration, and guest access features to understand authentication flows in a React application.
+
+  Implement secure user login, registration, and guest access features to understand authentication flows in a React application.
 
 - #### Build Product Management Features:
-Create dynamic product displays with filtering and sorting options to enhance user browsing experience.
+
+  Create dynamic product displays with filtering and sorting options to enhance user browsing experience.
 
 - #### Implement Cart and Checkout Functionality:
-Develop a fully functional shopping cart, including adding, updating, and removing items, and a seamless checkout process.
+
+  Develop a fully functional shopping cart, including adding, updating, and removing items, and a seamless checkout process.
 
 - #### Handle Errors and Provide User Feedback:
-Learn to implement error handling and user notifications using React Toastify to improve user experience and application robustness.
+
+  Learn to implement error handling and user notifications using React Toastify to improve user experience and application robustness.
 
 - #### Optimize Data Fetching and Performance:
-Utilize efficient data fetching techniques with Axios and implement pagination to handle large data sets effectively.
+
+  Utilize efficient data fetching techniques with Axios and implement pagination to handle large data sets effectively.
 
 - #### Integrate Loading States:
-Implement global loading indicators to enhance the user experience during data fetching and processing operations.
+
+  Implement global loading indicators to enhance the user experience during data fetching and processing operations.
 
 - #### Learn Protected Route Management:
-Understand how to protect routes and restrict access to authenticated users only, enhancing security in the application.
+
+  Understand how to protect routes and restrict access to authenticated users only, enhancing security in the application.
 
 - #### Master Order Management:
-Build features for order placement and history tracking to provide a complete e-commerce experience.
+  Build features for order placement and history tracking to provide a complete e-commerce experience.
 
 ## Useful Project Resources
 
@@ -1277,7 +1288,6 @@ const url = '/products?featured=true';
 
 export const loader = async () => {
   const response = await customFetch(url);
-  console.log(response);
   const products = response.data.data;
   return { products };
 };
