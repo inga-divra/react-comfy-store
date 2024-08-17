@@ -1,8 +1,12 @@
+import ProductsGrid from "./ProductsGrid"
+import ProductsList from "./ProductsList"
+
 
 const ProductsContainer = () => {
-    return (
-        <h1>ProductsContainer</h1>
-    )
+    return <>
+        <ProductsList />
+        <ProductsGrid />
+    </>
 }
 
 export default ProductsContainer
