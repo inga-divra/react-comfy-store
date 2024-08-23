@@ -13,8 +13,6 @@ const HomeLayout = () => {
                     <Outlet />
                 </section>
             }
-
-
         </>
     );
 };
