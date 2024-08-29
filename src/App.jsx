@@ -22,7 +22,7 @@ import { loader as singleProductLoader } from './pages/SingleProduct';
 import { loader as productsLoader } from './pages/Products';
 
 // actions
-
+import { action as registerAction } from './pages/Register';
 
 const router = createBrowserRouter([
   {
@@ -52,7 +52,10 @@ const router = createBrowserRouter([
         path: 'cart',
         element: <Cart />,
       },
-      { path: 'about', element: <About /> },
+      {
+        path: 'about',
+        element: <About />
+      },
       {
         path: 'checkout',
         element: <Checkout />,
@@ -72,6 +75,7 @@ const router = createBrowserRouter([
     path: '/register',
     element: <Register />,
     errorElement: <Error />,
+    action: registerAction,
   },
 ]);
 
