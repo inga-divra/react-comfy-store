@@ -3,6 +3,7 @@ import { Form, Link, redirect, useNavigate } from 'react-router-dom';
 import { customFetch } from '../utils';
 import { toast } from 'react-toastify';
 import { loginUser } from '../features/user/userSlice';
+import { useDispatch } from 'react-redux';
 
 
 export const action = (store) => async ({ request }) => {
@@ -22,6 +23,25 @@ export const action = (store) => async ({ request }) => {
 }
 
 const Login = () => {
+    const dispatch = useDispatch()
+    const navigate = useNavigate()
+
+    const loginAsGuestUser = async () => {
+        try {
+            const response = await customFetch.post('/auth/local', {
+                identifier: 'test@test.com',
+                password: 'secret'
+            })
+            dispatch(loginUser(response.data))
+            toast.success('welcome guest user')
+            navigate('/')
+        } catch (error) {
+            console.log(error);
+            toast.error('quest user error,please try again')
+
+        }
+    }
+
     return (
         <section className="h-screen grid place-items-center">
             <Form method="POST"
@@ -34,18 +54,18 @@ const Login = () => {
                     type="email"
                     label="email"
                     name="identifier"
-                    defaultValue="test@test.com" />
+                />
                 <FormInput
                     type="password"
                     label="password"
-                    name="password"
-                    defaultValue="secret" />
+                    name="password" />
                 <div className="mt-4">
                     <SubmitBtn text="login" />
                 </div>
                 <button
                     className="btn btn-secondary btn-block uppercase"
-                    type="button">
+                    type="button"
+                    onClick={loginAsGuestUser}>
                     guest user
                 </button>
                 <p className="text-center">
