@@ -7,7 +7,7 @@ import { addItem } from '../features/cart/cartSlice';
 
 
 
-export const loader = async ({ params }) => {
+export const loader = (queryClient) => async ({ params }) => {
     const response = await customFetch(`/products/${params.id}`)
     return { product: response.data.data }
 }
