@@ -1,4 +1,4 @@
-## Comfy Store
+## Comfy Store https://react-comfy-ingady.netlify.app/
 
 An e-commerce application where users can browse products, manage their cart, and place orders. The project aims to enhance skills in React development by focusing on state management, routing, and effective user interface design.
 
